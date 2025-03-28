@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LNpLv7/D+3Y=",
+  "dgSpecHash": "bTV3KwHWOcU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Proyect Snake West\\Proyect Snake West.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\trabajo\\Proyect-Snake-West\\Proyect Snake West.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.13\\microsoft.aspnetcore.cryptography.internal.8.0.13.nupkg.sha512",

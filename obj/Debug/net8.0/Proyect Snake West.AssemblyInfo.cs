@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyect Snake West")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eaf186b5b5e1d670c56d754d38ee513933f7f80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8181fb8ce04cfcdf81b2ffd675c686b71e756574")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyect Snake West")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyect Snake West")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

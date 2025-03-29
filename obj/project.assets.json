@@ -2871,11 +2871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Proyect Snake West\\Proyect Snake West.csproj",
-      "projectName": "Proyect Snake West",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Proyect Snake West\\Proyect Snake West.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+      "projectName": "ProyectSnakeWest",
+      "projectPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Proyect Snake West\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

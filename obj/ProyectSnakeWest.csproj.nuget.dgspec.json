@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RONALD\\Desktop\\Proyecto SnakeWest\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
+    "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RONALD\\Desktop\\Proyecto SnakeWest\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
+    "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RONALD\\Desktop\\Proyecto SnakeWest\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "projectUniqueName": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
         "projectName": "ProyectSnakeWest",
-        "projectPath": "C:\\Users\\RONALD\\Desktop\\Proyecto SnakeWest\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
-        "packagesPath": "C:\\Users\\RONALD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RONALD\\Desktop\\Proyecto SnakeWest\\ProyectSnakeWest\\obj\\",
+        "projectPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "packagesPath": "C:\\Users\\01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RONALD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\01\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

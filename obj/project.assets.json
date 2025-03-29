@@ -2866,19 +2866,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "C:\\Users\\01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+      "projectUniqueName": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
       "projectName": "ProyectSnakeWest",
-      "projectPath": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\obj\\",
+      "projectPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+      "packagesPath": "C:\\Users\\01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\01\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

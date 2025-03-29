@@ -1,339 +1,363 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectSnakeWest.bundle.scp.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectSnakeWest.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProyectSnakeWest.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\MasterCard.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\MasterCard.png",
       "PackagePath": "staticwebassets\\imagenes\\MasterCard.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\carrito.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\carrito.png",
       "PackagePath": "staticwebassets\\imagenes\\carrito.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel1.jpeg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel1.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\carusel1.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel2.jpeg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel2.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\carusel2.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel3.jpeg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel3.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\carusel3.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel4.jpeg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\carusel4.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\carusel4.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo1.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo1.jpg",
       "PackagePath": "staticwebassets\\imagenes\\fondo1.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo2.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo2.jpg",
       "PackagePath": "staticwebassets\\imagenes\\fondo2.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo3.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo3.jpg",
       "PackagePath": "staticwebassets\\imagenes\\fondo3.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo4.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\fondo4.jpg",
       "PackagePath": "staticwebassets\\imagenes\\fondo4.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\hero.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\hero.jpg",
       "PackagePath": "staticwebassets\\imagenes\\hero.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\hero2.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\hero2.jpg",
       "PackagePath": "staticwebassets\\imagenes\\hero2.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\hero3.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\hero3.jpg",
       "PackagePath": "staticwebassets\\imagenes\\hero3.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logo.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logo.png",
       "PackagePath": "staticwebassets\\imagenes\\logo.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoFb.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoFb.png",
       "PackagePath": "staticwebassets\\imagenes\\logoFb.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoIg.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoIg.png",
       "PackagePath": "staticwebassets\\imagenes\\logoIg.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoPlin.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoPlin.png",
       "PackagePath": "staticwebassets\\imagenes\\logoPlin.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoUbi.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoUbi.png",
       "PackagePath": "staticwebassets\\imagenes\\logoUbi.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoWhatsapp.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoWhatsapp.png",
       "PackagePath": "staticwebassets\\imagenes\\logoWhatsapp.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\logoYape.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\logoYape.png",
       "PackagePath": "staticwebassets\\imagenes\\logoYape.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\menu.png",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\menu.png",
       "PackagePath": "staticwebassets\\imagenes\\menu.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\nosotros.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\nosotros.jpg",
       "PackagePath": "staticwebassets\\imagenes\\nosotros.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\imagenes\\visa.jpg",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\visa.jpg",
       "PackagePath": "staticwebassets\\imagenes\\visa.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap2.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap4.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap5.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap7.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap8.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\imagenes\\zap9.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\zap9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\trabajo\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

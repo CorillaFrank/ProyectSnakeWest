@@ -1,0 +1,1 @@
+dotnet ef migrations add ProductoMigracion --context Proyect_Snake_West.Data.ApplicationDbContext -o "C:\Users\USER\Desktop\wproyecto\ProyectSnakeWest\Data\Migrations"

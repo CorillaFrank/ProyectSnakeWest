@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<Proyect_Snake_West.Models.Producto> DataProducto {get; set; }
 }

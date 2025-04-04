@@ -33,6 +33,14 @@
                         <li class="nav-item"></li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contactos">Contactos</a>
                         </li>
+                        <li class="nav-item"></li>
+                         <a class="nav-link text-dark" asp-area="" asp-controller="Catalogo" asp-action="Index">Catalogo</a>
+                         </li>
+                         <li class="nav-item"></li>
+                             <form asp-controller="Catalogo" asp-action="Index">
+                                 <input type="text" name="searchString"><input type="submit" value="Buscar" />
+                             </form>
+                         </li>
                         
                     </ul>
                     <partial name="_LoginPartial" />

@@ -23,15 +23,18 @@ namespace Proyect_Snake_West.Controllers
         }
 
         public IActionResult Index(string? searchString)
-         {
-             var productos = from o in _context.DataProducto select o;
-             if(!String.IsNullOrEmpty(searchString)){
-                 productos = productos.Where(s => s.Name.Contains(searchString));
-             }
-             productos = productos.Where(l => l.Status.Contains("A"));
-             return View(productos.ToList());
-         }
-         
+    {
+    // Cambia DataProducto por Productos
+    var productos = from o in _context.Productos select o;
+    
+    if(!String.IsNullOrEmpty(searchString))
+    {
+        productos = productos.Where(s => s.Name.Contains(searchString));
+    }
+    
+    productos = productos.Where(l => l.Status.Contains("A"));
+    return View(productos.ToList());
+    }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

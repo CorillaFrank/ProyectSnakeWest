@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
+    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
+    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
         "projectName": "ProyectSnakeWest",
-        "projectPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
-        "packagesPath": "C:\\Users\\01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\01\\Documents\\ProyectoTrabajoPRO1\\ProyectSnakeWest\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\01\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -55,13 +55,29 @@
               "target": "Package",
               "version": "[8.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.13, )"
+              "version": "[9.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.13, )"
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

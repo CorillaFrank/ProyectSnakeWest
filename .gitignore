@@ -1,0 +1,5 @@
+bin/
+obj/
+out/
+obj/Debug/
+bin/Debug/net8.0/app.db

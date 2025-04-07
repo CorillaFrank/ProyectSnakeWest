@@ -2,7 +2,16 @@
  @{
      ViewData["Title"] = "Catalogo";
  }
- 
+ <div class="alert @(Model.Any() ? "alert-success" : "alert-danger")">
+    @if(Model.Any())
+    {
+        <span>Mostrando @Model.Count() productos. Ejemplo: @Model.First().Name</span>
+    }
+    else
+    {
+        <span>No se encontraron productos. ¿Seguro que hay datos en t_producto?</span>
+    }
+</div>
  <h1>@ViewData["Title"]</h1>
    <div class="container">
      <h1>@ViewData["Message"]</h1>

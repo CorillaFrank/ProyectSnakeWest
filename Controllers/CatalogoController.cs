@@ -46,29 +46,7 @@ namespace Proyect_Snake_West.Controllers
             }
             return View(objProduct);
         }
-        public async Task<IActionResult> Add(int? id){
-             var userID = _userManager.GetUserName(User);
-             if(userID==null){
-                ViewData["message"] = "Por favor debe logearse antes de agregar un producto";
-                List<Producto> productos = new List<Producto>();
-                return View("Index",productos); 
-              }else{
-                var producto = await _context.Productos.FindAsync(id);
-                Proforma proforma = new Proforma();
-                proforma.Producto = producto;
-                proforma.Precio = producto.Price;
-                proforma.cantidad =  1;
-                proforma.UserID = userID;
-                _context.Add(proforma);
-                await _context.SaveChangesAsync();
-                ViewData["message"] = "Se agrego al carrito";
-                return RedirectToAction(nameof(Index));
-              }
-            
-        }
-
-
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

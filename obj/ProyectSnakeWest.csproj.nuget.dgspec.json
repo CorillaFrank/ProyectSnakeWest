@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
+    "C:\\Users\\RONALD\\Desktop\\Programacion\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
+    "C:\\Users\\RONALD\\Desktop\\Programacion\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "projectUniqueName": "C:\\Users\\RONALD\\Desktop\\Programacion\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
         "projectName": "ProyectSnakeWest",
-        "projectPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\obj\\",
+        "projectPath": "C:\\Users\\RONALD\\Desktop\\Programacion\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "packagesPath": "C:\\Users\\RONALD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RONALD\\Desktop\\Programacion\\ProyectSnakeWest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RONALD\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -57,27 +57,29 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.13, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -99,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -31,9 +31,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 // Configuración de Identity
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -78,16 +75,22 @@ app.MapRazorPages();
 
 async Task CrearRolesInicialesAsync(WebApplication app)
 {
-    using var scope = app.Services.CreateScope();
+     using var scope = app.Services.CreateScope();
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
     string[] roles = new[] { "Administrador", "Cliente" };
 
-    foreach (var role in roles)
+    foreach (var rol in roles)
     {
-        if (!await roleManager.RoleExistsAsync(role))
+        var existe = await roleManager.RoleExistsAsync(rol);
+        if (!existe)
         {
-            await roleManager.CreateAsync(new IdentityRole(role));
+            await roleManager.CreateAsync(new IdentityRole(rol));
+            Console.WriteLine($"✔ Rol '{rol}' creado");
+        }
+        else
+        {
+            Console.WriteLine($"ℹ Rol '{rol}' ya existe");
         }
     }
 }

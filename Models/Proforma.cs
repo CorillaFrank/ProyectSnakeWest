@@ -17,7 +17,7 @@ namespace Proyect_Snake_West.Models
         public int Id { get; set;}
         public string? UserID { get; set; }
         public Producto? Producto { get; set;}
-        public int cantidad { get; set;}
+        public int Cantidad { get; set;}
         [NotNull]
         public Decimal Precio {get; set;}
         public string Status {get; set;} ="PENDIENTE";

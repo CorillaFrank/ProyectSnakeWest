@@ -50,7 +50,7 @@ namespace Proyect_Snake_West.Controllers
                     Where(w => w.UserID.Equals(userIDSession) &&
                         w.Status.Equals("PENDIENTE"));
             var itemsCarrito = items.ToList();
-            var total = itemsCarrito.Sum(c => c.cantidad * c.Precio);
+            var total = itemsCarrito.Sum(c => c.Cantidad * c.Precio);
 
             dynamic model = new ExpandoObject();
             model.montoTotal = total;
@@ -69,7 +69,7 @@ namespace Proyect_Snake_West.Controllers
                 Proforma proforma = new Proforma();
                 proforma.Producto = producto;
                 proforma.Precio = producto.Price;
-                proforma.cantidad = 1;
+                proforma.Cantidad = 1;
                 proforma.UserID = userID;
                 _context.Add(proforma);
                 await _context.SaveChangesAsync();
@@ -89,6 +89,21 @@ namespace Proyect_Snake_West.Controllers
             _context.Carritos.Remove(itemCarrito);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var itemCarrito = await _context.Carritos.FindAsync(id);
+            if (itemCarrito == null)
+            {
+                return NotFound();
+            }
+            return View(itemCarrito);
         }
 
          [HttpPost]

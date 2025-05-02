@@ -1,0 +1,17 @@
+@model Proyect_Snake_West.Models.UsuarioConRolViewModel
+
+@{
+    ViewData["Title"] = "Editar Rol";
+}
+
+<h2>Editar rol de @Model.Email</h2>
+
+<form asp-action="Editar" method="post">
+    <div class="form-group">
+        <label>Rol asignado</label>
+        <select asp-for="RolSeleccionado" asp-items="@(new SelectList(Model.RolesDisponibles))" class="form-control"></select>
+    </div>
+    <input type="hidden" asp-for="Email" />
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

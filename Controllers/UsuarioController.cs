@@ -71,11 +71,42 @@ namespace Proyect_Snake_West.Controllers
                     Id = usuario.Id,
                     Email = usuario.Email ?? string.Empty,
                     Rol = roles.FirstOrDefault() ?? string.Empty
-                   });
+                });
             }
 
             return View(lista);
         }
+            // ✅ GET: Usuario/Editar/id
+public async Task<IActionResult> Editar(string id)
+{
+    var usuario = await _userManager.FindByIdAsync(id);
+    if (usuario == null) return NotFound();
+
+    var rolesUsuario = await _userManager.GetRolesAsync(usuario);
+    var modelo = new UsuarioConRolViewModel
+    {
+        Email = usuario.Email,
+        RolesDisponibles = _roleManager.Roles.Select(r => r.Name).ToList(),
+        RolSeleccionado = rolesUsuario.FirstOrDefault() ?? string.Empty
+    };
+
+    return View(modelo);
+}
+
+// ✅ POST: Usuario/Editar
+[HttpPost]
+public async Task<IActionResult> Editar(string id, UsuarioConRolViewModel modelo)
+{
+    var usuario = await _userManager.FindByIdAsync(id);
+    if (usuario == null) return NotFound();
+
+    var rolesActuales = await _userManager.GetRolesAsync(usuario);
+    await _userManager.RemoveFromRolesAsync(usuario, rolesActuales);
+    await _userManager.AddToRoleAsync(usuario, modelo.RolSeleccionado);
+
+    TempData["mensaje"] = "Rol actualizado correctamente.";
+    return RedirectToAction("Index");
+}
 
         // ✅ Acción para eliminar usuario
         [HttpPost]
@@ -98,10 +129,4 @@ namespace Proyect_Snake_West.Controllers
         }
     }
 
-    internal class UsuarioConRolListViewModel
-    {
-        public string Id { get; internal set; }
-        public string Email { get; internal set; }
-        public string Rol { get; internal set; }
-    }
 }

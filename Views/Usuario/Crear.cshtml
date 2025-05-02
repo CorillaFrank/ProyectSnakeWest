@@ -1,33 +1,32 @@
 @model Proyect_Snake_West.Models.UsuarioConRolViewModel
 
 @{
-    ViewData["Title"] = "Crear Usuario";
+    ViewData["Title"] = "Crear Usuario con Rol";
 }
 
-<h2 class="mb-4">Crear nuevo usuario</h2>
+<h2>Crear Usuario con Rol</h2>
 
 @if (TempData["mensaje"] != null)
 {
     <div class="alert alert-success">@TempData["mensaje"]</div>
 }
 
-<form asp-action="Crear" method="post" class="card card-body shadow-sm">
-
-    <div class="mb-3">
-        <label asp-for="Email" class="form-label">Correo electrónico</label>
+<form asp-action="Crear" method="post">
+    <div class="form-group">
+        <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <div class="mb-3">
-        <label asp-for="Password" class="form-label">Contraseña</label>
+    <div class="form-group">
+        <label asp-for="Password"></label>
         <input asp-for="Password" type="password" class="form-control" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
 
-    <div class="mb-3">
-        <label asp-for="RolSeleccionado" class="form-label">Rol</label>
-        <select asp-for="RolSeleccionado" asp-items="@(new SelectList(Model.RolesDisponibles))" class="form-select">
+    <div class="form-group">
+        <label asp-for="RolSeleccionado">Rol</label>
+        <select asp-for="RolSeleccionado" class="form-control" asp-items="new SelectList(Model.RolesDisponibles)">
             <option disabled selected>-- Selecciona un rol --</option>
         </select>
         <span asp-validation-for="RolSeleccionado" class="text-danger"></span>
@@ -37,5 +36,5 @@
 </form>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <partial name="_ValidationScriptsPartial" />
 }

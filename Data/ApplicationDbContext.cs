@@ -14,4 +14,8 @@ public class ApplicationDbContext : IdentityDbContext
 
     public DbSet<Producto> Productos { get; set; } // Nombre más estándar
     public DbSet<Proforma> Carritos { get; set;}
+
+    public DbSet<Pago> Pagos { get; set;}
+    public DbSet<Pedido> Pedidos { get; set;}
+    public DbSet<DetallePedido> DetallePedidos { get; set;}
 }

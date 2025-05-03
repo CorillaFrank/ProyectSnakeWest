@@ -1,17 +1,24 @@
-FROM mcr.microsoft.com/dotnet/sdk
+# Etapa 1: Build
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
+EXPOSE 8080
 
-COPY *.csproj ./
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copiar el .csproj y restaurar dependencias
+COPY ["ProyectSnakeWest.csproj", "./"]
 RUN dotnet restore
 
-COPY . ./
-RUN dotnet publish -c Release -o out
+# Copiar el resto de archivos y compilar
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Etapa 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-COPY --from=build-env /app/out .
-#CAMBIAR AQUI EL NOMBRE DEL APLICATIVO
-# nombre de tu app busca en bin/Release ****\netcore5.0\plantitas.exe
-ENV APP_NET_CORE ProyectSnakeWest.dll
+COPY --from=build /app/publish .
 
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet $APP_NET_CORE
+ENV ASPNETCORE_URLS=http://+:$PORT
+
+ENTRYPOINT ["dotnet", "ProyectSnakeWest.dll"]

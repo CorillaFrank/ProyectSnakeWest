@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Proyect_Snake_West.Data;
+using Proyect_Snake_West.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseNpgsql(connectionString));
+builder.Services.AddScoped<ProductoService>();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

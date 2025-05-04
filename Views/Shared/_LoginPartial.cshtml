@@ -1,7 +1,9 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
+ <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
 
+ <body class="slider-3d__body">
 <ul class="navbar-nav">
     <li class="nav-item"></li>
             <form asp-controller="Catalogo" asp-action="Index">
@@ -34,3 +36,5 @@ else
     </li>
 }
 </ul>
+    
+</body>

@@ -2,6 +2,7 @@
  @{
      ViewData["Title"] = "Catalogo";
  }
+  <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
  <div class="alert @(Model.Any() ? "alert-success" : "alert-danger")">
     @if(Model.Any())
     {
@@ -27,7 +28,7 @@
                        <img src="@item.ImageURL" class="d-block w-100 image-fit">
                    </div>
                  </div>
-                 <div class="card-body">
+                 <div class="card-body"style=" color: #000000;">
                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
                    <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
                    <a class="btn btn-primary" asp-controller="Carrito" asp-action="Add" asp-route-id="@item.Id">Add</a>

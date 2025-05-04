@@ -3,7 +3,7 @@
  @{
      ViewData["Title"] = "Detalles del Producto";
  }
- 
+  <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
      <h1>Details</h1>
      <div class="container">
              <div class="col-sm-4">
@@ -14,8 +14,8 @@
                         src="@Model.ImageURL" alt="Imagen del producto" />
                    </div>
                  </div>
-                 <div class="card-body">
-                   <h5 class="card-title">@Html.DisplayFor(model => model.Name)</h5>
+                 <div class="card-body" style=" color: #000000;">
+                   <h5 class="card-title" >@Html.DisplayFor(model => model.Name)</h5>
                    <h5 class="card-title">@Html.DisplayFor(model => model.Price)</h5>
                    
 

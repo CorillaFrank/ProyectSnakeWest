@@ -2,37 +2,64 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
  <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
  <body class="slider-3d__body">
 <ul class="navbar-nav">
-    <li class="nav-item"></li>
-            <form asp-controller="Catalogo" asp-action="Index">
-                                <input type="text" name="searchString"><input type="submit" value="Buscar" />
-            </form>
-    </li>
+    <li class="nav-item position-relative">
+    <form asp-controller="Catalogo" asp-action="Index">
+        <input type="text" 
+               name="searchString"
+               class="form-control search-input"
+               placeholder="Buscar..."
+               autocomplete="off"
+               id="searchInput">
+        <div class="search-suggestions d-none" id="searchSuggestions"></div>
+        <button type="submit" class="btn btn-link search-icon">
+            <i class="fas fa-search"></i>
+        </button>
+    </form>
+</li>
+
+
+<script>
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+        const suggestions = document.getElementById('searchSuggestions');
+        if(e.target.value.length > 2) {
+            // Aquí harías una llamada AJAX para obtener sugerencias
+            suggestions.classList.remove('d-none');
+            suggestions.innerHTML = '<div class="p-2">Resultados para: ' + e.target.value + '</div>';
+        } else {
+            suggestions.classList.add('d-none');
+        }
+    });
+</script>
 @if (SignInManager.IsSignedIn(User))
 {   
-     <li class="nav-item">
-        <form asp-controller="Carrito" asp-action="Index">
-                <input type="submit" value="Carrito" />
-        </form>
-    </li>
+   <li class="nav-item">
+    <form asp-controller="Carrito" asp-action="Index">
+        <button type="submit" class="btn btn-success position-relative">
+            <i class="fas fa-shopping-cart me-1"></i> Carrito
+            <!-- Notificación de items (opcional) -->
+            
+        </button>
+    </form>
+</li>
     <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        <a  class="nav-link " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @User.Identity?.Name ✅</a>
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            <button  type="submit" class="nav-link btn btn-link ">Salir</button>
         </form>
     </li>
 }
 else
 {
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        <a class="nav-link " asp-area="Identity" asp-page="/Account/Register">Registrar</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        <a class="nav-link " asp-area="Identity" asp-page="/Account/Login">Iniciar Sesión</a>
     </li>
 }
 </ul>

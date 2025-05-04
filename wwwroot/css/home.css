@@ -13,12 +13,66 @@ html {
 * {
   box-sizing: border-box;
 }
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra más pequeña */
+  border-radius: 50%;
+  padding: 3px; /* Menos espacio interno */
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transition: all 0.2s ease; /* Transición más rápida */
+  width: 150px; /* Tamaño fijo (ajusta según necesites) */
+  height: 150px;
+  object-fit: contain; /* Asegura que la imagen se ajuste */
+}
 
+.logo:hover {
+  filter: drop-shadow(
+    0 0 8px rgba(0, 80, 200, 0.4)
+  ); /* Efecto hover más sutil */
+  transform: scale(1.03); /* Zoom más pequeño */
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto, "sans-serif";
+  font-size: 1.2rem;
+}
+.navbar ul li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #fffefe;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+.navbar ul li:hover::before {
+  width: 100%;
+}
 body {
   margin: 0;
   font-family: "poppins", sans-serif;
   margin-bottom: 0px;
-  background-image: url("/imagenes/fondo4.jpg");
+  background-image: url("/imagenes/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -123,7 +177,7 @@ title {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/zap9.jpg");
+    url("/imagenes/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -334,3 +388,35 @@ body {
     gap: 30px;
   }
 }
+
+/* BUSCADOR */
+.search-input {
+  padding-right: 35px;
+  min-width: 200px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.nav-item.position-relative {
+  margin-bottom: 25px; /* Espacio debajo del campo de búsqueda */
+  padding-bottom: 0px; /* Espacio interno adicional */
+}
+/* FIN BUSCADOR */

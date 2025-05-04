@@ -26,8 +26,12 @@ builder.Services.AddScoped<ProductoService>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 // Configuración de Identity
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>() // ESTA LÍNEA AÑADE SOPORTE DE ROLES
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+
 
 builder.Services.AddControllersWithViews();
 

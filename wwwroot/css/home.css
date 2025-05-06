@@ -25,20 +25,16 @@ html {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra más pequeña */
   border-radius: 50%;
   padding: 3px; /* Menos espacio interno */
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0) 70%
-  );
+  
   transition: all 0.2s ease; /* Transición más rápida */
-  width: 150px; /* Tamaño fijo (ajusta según necesites) */
-  height: 150px;
+  width: 220px; /* Tamaño fijo (ajusta según necesites) */
+  height: 200px;
   object-fit: contain; /* Asegura que la imagen se ajuste */
 }
 
 .logo:hover {
   filter: drop-shadow(
-    0 0 8px rgba(0, 80, 200, 0.4)
+    0 0 8px rgba(245, 2, 2, 0.4)
   ); /* Efecto hover más sutil */
   transform: scale(1.03); /* Zoom más pequeño */
 }

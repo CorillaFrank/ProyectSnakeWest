@@ -12,58 +12,13 @@
    <h1>Bienvenidos a SNAKE WEST  <br>nos alegra que estes aquí</h1>
 </section>  
 <header>
-    <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
  
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active d-item" >
-      <img src="/imagenes/carusel1.jpeg" class="d-block w-100 d-img" alt="slider 1" >
-      <div class="carousel-caption d-none d-md-block mt-3 p-3">
-        <h3 class="text-center"style="font-size:50px">novedades</h3>
-        <p class="lead text-center" style="font-size:25px">Siempre pensando en tí</p>
-      </div>
-    </div>
-    <div class="carousel-item d-item">
-      <img src="/imagenes/carusel2.jpeg" class="d-block w-100 d-img" alt="slider 2" >
-      <div class="carousel-caption  d-none d-md-block">
-        <h3 class="text-center"style="font-size:50px">colores</h3>
-        <p class="lead text-center" style="font-size:25px">disfrute de una amplia gama de colores.</p>
-      </div>
-    </div>
-    <div class="carousel-item d-item">
-      <img src="/imagenes/carusel3.jpeg" class="d-block w-100 d-img" alt="slider 3">
-      <div class="carousel-caption  d-none d-md-block">
-        <h3 class="text-center"style="font-size:50px">Diseños Exclusivos</h3>
-        <p class="lead text-center" style="font-size:25px">Amplia variedad de diseños </p>
-      </div>
-    </div>
-    <div class="carousel-item d-item">
-      <img src="/imagenes/carusel4.jpeg" class="d-block w-100 d-img" alt="slider 4">
-      <div class="carousel-caption d-none d-md-block">
-        <h3 class="text-center"style="font-size:50px">Buena atención</h3>
-        <p class="lead text-center" style="font-size:25px">Siempre al servicio del cliente.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
- </div>
 
 
 <body class="slider-3d__body">
     
-    <h1 class="slider-3d__title">Slider 3D con puro CSS</h1>
+    <h1 class="slider-3d__title">Ofertas DIARIAS</h1>
 
     <div class="slider-3d__container">
 
@@ -74,13 +29,13 @@
 
             <div class="slider-3d__cards">
                 <label class="slider-3d__card" for="item-1" id="selector-1">
-                    <img src="imagenes/img1.jpg" class="slider-3d__img">
+                    <img src="imagenes/zap2.jpg" class="slider-3d__img">
                 </label>
                 <label class="slider-3d__card" for="item-2" id="selector-2">
-                    <img src="imagenes/img2.jpg" class="slider-3d__img">
+                    <img src="imagenes/zap5.jpg" class="slider-3d__img">
                 </label>
                 <label class="slider-3d__card" for="item-3" id="selector-3">
-                    <img src="imagenes/img3.jpg" class="slider-3d__img">
+                    <img src="imagenes/zap7.jpg" class="slider-3d__img">
                 </label>
             </div>
             
@@ -88,6 +43,7 @@
         </div>
         
     </div>
+   
 </body> 
 
  
@@ -111,6 +67,19 @@
 
 
 <script src="~/js/chatbot.js"></script>  
+  
+
+<script>
+    let current = 1;
+    const total = 3;
+
+    setInterval(() => {
+        document.getElementById(`item-${current}`).checked = false;
+        current = current % total + 1;
+        document.getElementById(`item-${current}`).checked = true;
+    }, 1500);
+</script>
+
   
 
 </body>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
+    "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
+    "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj",
         "projectName": "ProyectSnakeWest",
-        "projectPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\wproyecto\\ProyectSnakeWest\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\SnakeWest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

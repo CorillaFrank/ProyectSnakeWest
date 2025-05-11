@@ -17,103 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyect_Snake_West
 build_property.RootNamespace = Proyect_Snake_West
-build_property.ProjectDir = C:\Users\USER\Desktop\wproyecto\ProyectSnakeWest\
+build_property.ProjectDir = C:\Users\USER\Desktop\SnakeWest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\wproyecto\ProyectSnakeWest
+build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\SnakeWest
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Carrito/Edit.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Carrito/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Carrito/Index.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Carrito/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Carrito/UltimoProducto.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Carrito/UltimoProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xVbHRpbW9Qcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Catalogo/Details.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Catalogo/Index.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Home/Contactos.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Home/Contactos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Home/Index.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Home/Privacy.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Home/Productos.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Home/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Pago/Create.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Pago/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Producto/Create.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Producto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Producto/Delete.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Producto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Producto/Details.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Producto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Producto/Edit.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Producto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Producto/Index.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Shared/Error.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Shared/_MenuAdminPartial.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Shared/_MenuAdminPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51QWRtaW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/_ViewImports.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/wproyecto/ProyectSnakeWest/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Desktop/SnakeWest/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oxepel1m4p

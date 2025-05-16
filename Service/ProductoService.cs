@@ -13,9 +13,9 @@ namespace Proyect_Snake_West.Service
         private readonly ILogger<ProductoService> _logger;
         private readonly ApplicationDbContext _context;
 
-        public ProductoService(ApplicationDbContext context)
+         public ProductoService(ILogger<ProductoService> logger,ApplicationDbContext context)
         {
-            
+            _logger = logger;
             _context = context;
         }
 

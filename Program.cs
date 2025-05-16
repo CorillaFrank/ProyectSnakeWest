@@ -31,7 +31,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseNpgsql(connectionString));
-builder.Services.AddScoped<ProductoService>();
+//Registro mi logica customizada y reuzable
+builder.Services.AddScoped<ProductoService, ProductoService>();
+
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

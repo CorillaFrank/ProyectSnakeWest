@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Configuración esencial para PostgreSQL
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+// Configurar sesión
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromSeconds(10);
@@ -16,6 +17,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+// Configurar Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -25,27 +27,34 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Descripción de la API"
     });
 });
-// Configuración de DbContext CORREGIDA
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? 
-    throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
+// Configuración de DbContext
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
-//Registro mi logica customizada y reuzable
+
+// Registrar lógica personalizada (servicio Producto)
 builder.Services.AddScoped<ProductoService, ProductoService>();
 
-
+// Manejo de errores para desarrollo
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-// Configuración de Identity
+// Configuración de Identity con roles
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddRoles<IdentityRole>() // ESTA LÍNEA AÑADE SOPORTE DE ROLES
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Controladores y vistas (MVC)
 builder.Services.AddControllersWithViews();
+
+// Controladores API REST
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Aplicar migraciones automáticamente al iniciar (solo para desarrollo)
+// Aplicar migraciones al iniciar (solo en desarrollo)
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -57,11 +66,11 @@ using (var scope = app.Services.CreateScope())
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while migrating the database.");
+        logger.LogError(ex, "Error al aplicar migraciones de base de datos.");
     }
 }
 
-// Resto de la configuración...
+// Configuración de middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
@@ -71,20 +80,27 @@ else
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-app.UseSwagger();
 
+app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
 });
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseSession(); 
+app.UseSession();
 app.UseAuthorization();
+
+// ✅ NECESARIO PARA QUE FUNCIONEN LOS CONTROLADORES API
+app.MapControllers(); 
+
+// Rutas tradicionales MVC
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 app.MapRazorPages();
 
 app.Run();

@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Proyect_Snake_West.Models;
 using Microsoft.AspNetCore.Identity;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 using Proyect_Snake_West.Data;
 using Microsoft.EntityFrameworkCore;
@@ -56,9 +58,10 @@ namespace Proyect_Snake_West.Controllers
             _context.Add(pedido);
 
             List<DetallePedido> itemsPedido = new List<DetallePedido>();
-            foreach(var item in itemsCarrito.ToList()){
+            foreach (var item in itemsCarrito.ToList())
+            {
                 DetallePedido detallePedido = new DetallePedido();
-                detallePedido.pedido=pedido;
+                detallePedido.pedido = pedido;
                 detallePedido.Precio = item.Precio;
                 detallePedido.Producto = item.Producto;
                 detallePedido.Cantidad = item.Cantidad;
@@ -70,14 +73,14 @@ namespace Proyect_Snake_West.Controllers
 
             foreach (Proforma p in itemsCarrito.ToList())
             {
-                p.Status="PROCESADO";
+                p.Status = "PROCESADO";
             }
 
             _context.UpdateRange(itemsCarrito);
 
             _context.SaveChanges();
 
-            ViewData["Message"] = "El pago se ha registrado y su pedido nro "+ pedido.ID +" esta en camino";
+            ViewData["Message"] = "El pago se ha registrado y su pedido nro " + pedido.ID + " esta en camino";
             return View("Create");
         }
 
@@ -87,5 +90,33 @@ namespace Proyect_Snake_West.Controllers
         {
             return View("Error!");
         }
+        [HttpPost]
+        public async Task<IActionResult> PayWithPaypal(decimal monto)
+        {
+            // Aquí llamas a tu backend Node o a una clase en C# que use la API de PayPal
+            // Suponiendo que llamas al backend en Node que ya funciona:
+            var client = new HttpClient();
+            var response = await client.GetAsync("http://localhost:3000/create-paypal-order?monto=" + monto); // El backend que ya tienes corriendo con Node.js
+            var json = await response.Content.ReadAsStringAsync();
+
+            JObject data = JObject.Parse(json);
+            string redirectUrl = data["links"]
+            .First(l => l["rel"]!.ToString() == "approve")!["href"]!.ToString();
+
+            return Redirect(redirectUrl);
+        }
+        public IActionResult ConfirmarPago()
+        {
+        ViewData["Message"] = "Pago realizado correctamente con PayPal. Gracias por tu compra.";
+        return View("Confirmacion");
+        }
+
+        public IActionResult CancelarPago()
+        {
+            ViewData["Message"] = "El pago fue cancelado por el usuario.";
+            return View("Cancelacion");
+        }
+
     }
+    
 }

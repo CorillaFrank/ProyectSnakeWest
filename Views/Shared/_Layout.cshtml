@@ -14,12 +14,12 @@
 <body>
       <header>
          <div class="container"></div>
-         <div class="navbar" style="color: ;">
-             <img src="/imagenes/sneaker.png" class="logo" alt="Main Logo">
+         <div class="navbar" >
+             <img src="/imagenes/sneaker.png" class="logo" alt="Main Logo" >
          
  
          <ul>
-             <li class="nav-item">
+             <li class="nav-item" >
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
@@ -31,7 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link " asp-area="" asp-controller="Catalogo" asp-action="Index">Catalogo</a>
                         </li>
-                         <li class="nav-item">
+                         <li class="nav-item" >
                             <a class="nav-link " asp-area="" asp-controller="Galleta" asp-action="Index">Galleta de la Fortuna</a>
                         </li>
                        
@@ -75,7 +75,7 @@
                 <li><a href="#">Guía de tallas</a></li>
                 <li><a href="#">Envíos y Descuentos</a></li>
                 <li><a href="#">Devoluciones y Reembolsos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a asp-controller="Home" asp-action="Contactos">Contacto</a></li>
             </ul>
         </div>
         

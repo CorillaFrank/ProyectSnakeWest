@@ -1,0 +1,10 @@
+@model Proyect_Snake_West.Models.Pago
+
+<h2>Resumen de compra</h2>
+<p>Usuario: @Model.UserID</p>
+<p>Total a pagar: @Model.MontoTotal USD</p>
+
+<form action="/Pago/PayWithPaypal" method="post">
+    <input type="hidden" name="monto" value="@Model.MontoTotal" />
+    <input type="submit" value="Pagar con PayPal" class="btn btn-primary" />
+</form>

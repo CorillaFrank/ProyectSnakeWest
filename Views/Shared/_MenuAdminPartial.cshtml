@@ -10,7 +10,7 @@
     var roles = await Task.Run(() => UserManager.GetRolesAsync(myidentity));
 
     @if(roles.Contains("Admin") ){
-        <li class="nav-item">
+        <li class="nav-item" >
             <a class="nav-link  bi bi-cart" asp-area="" asp-controller="Pedido" asp-action="Index">Pedidos</a>
         </li>
         <li class="nav-item">

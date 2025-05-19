@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Proyect_Snake_West.Data;
 using Proyect_Snake_West.Service;
 using Microsoft.OpenApi.Models;
+using Proyect_Snake_West.Integration.galletafortuna; 
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +19,8 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+builder.Services.AddHttpClient<GalletaApiIntegration>(); // HttpClient para consumir API externa de RapidAPI
+
 
 // Configurar Swagger
 builder.Services.AddSwaggerGen(c =>

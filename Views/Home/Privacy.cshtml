@@ -1,43 +1,51 @@
 @{
-    
+    ViewData["Title"] = "Políticas de la Empresa";
 }
-<center><h1>@ViewData["Title"]</h1>
- <meta charset="utf-8" />
 
-  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4">@ViewData["Title"]</h1>
+        </div>
 
-    <meta name="viewport" >
-    <title>Políticas de la Empresa</title>
-   
+        <section>
+            <h2 class="h4">1. Política de Calidad</h2>
+            <p>Nos comprometemos a ofrecer zapatillas de importación de la más alta calidad, garantizando productos originales y duraderos. Trabajamos con proveedores confiables y realizamos estrictos controles de calidad para asegurar la satisfacción de nuestros clientes.</p>
 
-    <div class="container"></div>
-        <h1>Políticas de la Empresa</h1>
+            <h2 class="h4" >2. Política de Precios</h2>
+            <p>Mantenemos precios competitivos en el mercado, asegurando una relación justa entre calidad y costo. Ofrecemos promociones y descuentos exclusivos para clientes frecuentes y compras al por mayor.</p>
 
-        <h2>1. Política de Calidad</h2>
-        <p>Nos comprometemos a ofrecer zapatillas de importación de la más alta calidad, garantizando productos originales y duraderos. Trabajamos con proveedores confiables y realizamos estrictos controles de calidad para asegurar la satisfacción de nuestros clientes.</p>
-        
-        <h2>2. Política de Precios</h2>
-        <p>Mantenemos precios competitivos en el mercado, asegurando una relación justa entre calidad y costo. Ofrecemos promociones y descuentos exclusivos para clientes frecuentes y compras al por mayor.</p>
+            <h2 class="h4 ">3. Política de Garantía y Devoluciones</h2>
+            <p>Todos nuestros productos cuentan con garantía por defectos de fabricación por un período de 30 días desde la fecha de compra. No aceptamos devoluciones por uso indebido del producto.</p>
+            <p>Para cambios o devoluciones, el producto debe estar en su empaque original, sin signos de uso y con la boleta o factura correspondiente.</p>
 
-        <h2>3. Política de Garantía y Devoluciones</h2>
-        <p>Todos nuestros productos cuentan con garantía por defectos de fabricación por un período de 30 días desde la fecha de compra. No aceptamos devoluciones por uso indebido del producto.</p>
-        <p>Para cambios o devoluciones, el producto debe estar en su empaque original, sin signos de uso y con la boleta o factura correspondiente.</p>
-        
-        <h2>4. Política de Envíos</h2>
-        <p>Realizamos envíos a nivel nacional en un plazo de 24 a 72 horas, dependiendo de la ubicación. Los costos de envío varían según la zona y son informados antes de confirmar la compra.</p>
-        <p>No nos responsabilizamos por retrasos causados por empresas de transporte externas.</p>
-        
-        <h2>5. Política de Métodos de Pago</h2>
-        <p>Aceptamos pagos a través de transferencias bancarias, tarjetas de crédito/débito, Yape y Plin. No realizamos ventas a crédito ni aceptamos pagos en efectivo en envíos a domicilio.</p>
-        
-        <h2>6. Política de Atención al Cliente</h2>
-        <p>Nuestro equipo está disponible para resolver consultas y brindar soporte antes, durante y después de la compra. Atendemos a través de WhatsApp, redes sociales y correo electrónico en horarios de lunes a sábado de 9:00 a.m. a 7:00 p.m.</p>
-        
-        <h2>7. Política de Privacidad</h2>
-        <p>Respetamos la privacidad de nuestros clientes y protegemos sus datos personales. No compartimos información con terceros sin autorización previa.</p>
-        
-        <h2>8. Política de Responsabilidad Social</h2>
-        <p>Nos esforzamos por minimizar el impacto ambiental de nuestras operaciones y promover el consumo responsable de calzado.</p>
+            <h2 class="h4">4. Política de Envíos</h2>
+            <p>Realizamos envíos a nivel nacional en un plazo de 24 a 72 horas, dependiendo de la ubicación. Los costos de envío varían según la zona y son informados antes de confirmar la compra.</p>
+            <p>No nos responsabilizamos por retrasos causados por empresas de transporte externas.</p>
+
+            <h2 class="h4 ">5. Política de Métodos de Pago</h2>
+            <p>Aceptamos pagos a través de transferencias bancarias, tarjetas de crédito/débito, Yape y Plin. No realizamos ventas a crédito ni aceptamos pagos en efectivo en envíos a domicilio.</p>
+
+            <h2 class="h4 ">6. Política de Atención al Cliente</h2>
+            <p>Nuestro equipo está disponible para resolver consultas y brindar soporte antes, durante y después de la compra. Atendemos a través de WhatsApp, redes sociales y correo electrónico en horarios de lunes a sábado de 9:00 a.m. a 7:00 p.m.</p>
+
+            <h2 class="h4 ">7. Política de Privacidad</h2>
+            <p>Respetamos la privacidad de nuestros clientes y protegemos sus datos personales. No compartimos información con terceros sin autorización previa.</p>
+
+            <h2 class="h4 ">8. Política de Responsabilidad Social</h2>
+            <p>Nos esforzamos por minimizar el impacto ambiental de nuestras operaciones y promover el consumo responsable de calzado.</p>
+        </section>
     </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

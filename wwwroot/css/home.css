@@ -16,20 +16,23 @@ html {
 .navbar {
   width: 80%;
   margin: auto;
-  padding: 35px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .logo {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra más pequeña */
-  border-radius: 50%;
-  padding: 3px; /* Menos espacio interno */
-  
+
+  /* Menos espacio interno */
+
   transition: all 0.2s ease; /* Transición más rápida */
-  width: 220px; /* Tamaño fijo (ajusta según necesites) */
-  height: 200px;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin: 0;
   object-fit: contain; /* Asegura que la imagen se ajuste */
+  display: block;
 }
 
 .logo:hover {
@@ -41,26 +44,12 @@ html {
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 25px;
   position: relative;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-family: Roboto, "sans-serif";
-  font-size: 1.2rem;
-}
-.navbar ul li::before {
-  content: "";
-  height: 3px;
-  width: 0%;
-  background: #fffefe;
-  position: absolute;
-  left: 0;
-  bottom: -12px;
-  transition: 0.4s ease-out;
-}
 .navbar ul li:hover::before {
   width: 100%;
 }
@@ -412,7 +401,9 @@ body {
   overflow-y: auto;
 }
 .nav-item.position-relative {
-  margin-bottom: 25px; /* Espacio debajo del campo de búsqueda */
+  margin-bottom: 10px; /* Espacio debajo del campo de búsqueda */
   padding-bottom: 0px; /* Espacio interno adicional */
+  margin-top: 60px;
+  padding-top: -10px;
 }
 /* FIN BUSCADOR */

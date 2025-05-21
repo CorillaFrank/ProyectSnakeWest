@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj": {}
+    "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj": {
+    "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\ProyectSnakeWest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj",
+        "projectUniqueName": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
         "projectName": "ProyectSnakeWest",
-        "projectPath": "C:\\Users\\USER\\Desktop\\SnakeWest\\ProyectSnakeWest.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\SnakeWest\\obj\\",
+        "projectPath": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\ProyectSnakeWest.csproj",
+        "packagesPath": "C:\\Users\\01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\01\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -86,6 +86,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [

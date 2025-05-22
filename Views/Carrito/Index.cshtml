@@ -1,50 +1,50 @@
-@model dynamic;
-@using System.Collections.Generic;
+@model dynamic
+@using System.Collections.Generic
+@using Proyect_Snake_West.Models
 
 @{
-    ViewData["Title"] = "Carrito";
-    IEnumerable<Proyect_Snake_West.Models.Proforma> listItemsCarrito = new List<Proforma>();
-    listItemsCarrito = @Model.elementosCarrito;
-    Decimal montoTotal = @Model.montoTotal;
+    ViewData["Title"] = "Mi Carrito";
+    IEnumerable<Proforma> listItemsCarrito = Model.elementosCarrito;
+    decimal montoTotal = Model.montoTotal;
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="container my-5">
+    <h2 class="text-center mb-4">🛒 Mi Carrito de Compras</h2>
 
-<a class="btn btn-primary" asp-controller="Pago" 
-        asp-action="Create" asp-route-monto="@montoTotal">Pagar</a><p>Total S/. @montoTotal</p>
+    @if (listItemsCarrito != null && listItemsCarrito.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var item in listItemsCarrito)
+            {
+                <div class="col">
+                <div class="card producto-card shadow-sm h-100">
+                <div class="producto-img-container">
+                <img src="@item.Producto.ImageURL" class="card-img-top" alt="@item.Producto.Name" />
+                </div>
+                <div class="card-body text-center">
+                <h6 class="card-title fw-bold">@item.Producto.Name</h6>
+                <p class="card-text text-muted mb-1">Cantidad: <strong>@item.Cantidad</strong></p>
+                <p class="card-text text-muted mb-1">Precio Unitario: <strong>S/ @item.Precio.ToString("F2")</strong></p>
+                <p class="card-text mb-2">Subtotal: <strong>S/ @(item.Cantidad * item.Precio).ToString("F2")</strong></p>
+                <div class="d-flex justify-content-center gap-2">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-secondary btn-sm">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm">Eliminar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            }
+        </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => listItemsCarrito.FirstOrDefault().Producto.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => listItemsCarrito.FirstOrDefault().Cantidad)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => listItemsCarrito.FirstOrDefault().Precio)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (Proforma item in Model.elementosCarrito) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Producto.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Precio)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        <div class="text-end mt-4">
+            <h4>Total: <strong>S/ @montoTotal.ToString("F2")</strong></h4>
+            <a class="btn btn-success btn-lg mt-2" asp-controller="Pago" asp-action="Create" asp-route-monto="@montoTotal">Pagar</a>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center mt-4">
+            Tu carrito está vacío. <a asp-controller="Catalogo" asp-action="Index" class="alert-link">Ir al catálogo</a>.
+        </div>
+    }
+</div>

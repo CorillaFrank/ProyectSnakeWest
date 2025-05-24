@@ -519,3 +519,32 @@ body {
     83.3% { transform: translateX(-1280px); } 
     100% { transform: translateX(0); }
 }
+
+
+/* banner amarillo*/
+
+.shipping-container {
+    width: 100%;
+    background-color: yellow;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.shipping-message {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    animation: moverMensaje 8s linear infinite;
+}
+
+@keyframes moverMensaje {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}

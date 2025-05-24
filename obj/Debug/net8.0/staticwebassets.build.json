@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QJ9Z4efkgAtJI3ETv3ULP3+z8vyMl2xBl7BXnN3ojto=",
+  "Hash": "CtuyAG83UpHQD3n6a6KZzajKWpFtCEwBvHmgfaj7P08=",
   "Source": "ProyectSnakeWest",
   "BasePath": "_content/ProyectSnakeWest",
   "Mode": "Default",
@@ -2010,6 +2010,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\nosotros.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\wwwroot\\imagenes\\referencias.jpg",
+      "SourceId": "ProyectSnakeWest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\wwwroot\\",
+      "BasePath": "_content/ProyectSnakeWest",
+      "RelativePath": "imagenes/referencias.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\referencias.jpg"
     },
     {
       "Identity": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\wwwroot\\imagenes\\riama-logo.png",

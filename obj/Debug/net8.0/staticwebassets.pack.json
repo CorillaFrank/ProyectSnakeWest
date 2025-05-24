@@ -181,6 +181,10 @@
       "PackagePath": "staticwebassets\\imagenes\\nosotros.jpg"
     },
     {
+      "Id": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\wwwroot\\imagenes\\referencias.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\referencias.jpg"
+    },
+    {
       "Id": "C:\\Users\\01\\Documents\\presentacion 2 progrm1\\ProyectSnakeWest\\wwwroot\\imagenes\\riama-logo.png",
       "PackagePath": "staticwebassets\\imagenes\\riama-logo.png"
     },

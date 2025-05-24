@@ -127,7 +127,7 @@ h2 {
   }
 
   #somos .img-container {
-    background-image: url("/imagenes/zap8.jpg");
+    background-image: url("/imagenes/Sneaker-Stores-in-New-York.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -162,7 +162,7 @@ title {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/bg-image.jpg");
+    url("/imagenes/referencias.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

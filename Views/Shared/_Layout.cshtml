@@ -18,23 +18,23 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3 w-100 sticky-top">
         <div class="container-fluid px-5">
             <!-- LOGO MÁS GRANDE -->
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm px-4">
-                <a class="navbar-brand me-4" asp-controller="Home" asp-action="Index">
-        <img src="~/images/logo.png" alt="SnakeWest" style="height: 40px;" />
-                </a>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                 <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="~/imagenes/sneaker.png" alt="Logo" height="60" />
+                    </a>
 
 
             <!-- BOTÓN RESPONSIVE -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-            </button>>
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
             <!-- CONTENIDO -->
-            <div class="collapse navbar-collapse" id="navbarMain">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <!-- MENÚ -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacidad</a></li>
             <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Contacto">Contacto</a></li>

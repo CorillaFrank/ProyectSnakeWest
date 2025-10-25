@@ -1,0 +1,19 @@
+@model Proyect_Snake_West.Models.Pedido
+<h2>Nuevo Pedido</h2>
+
+<form asp-action="Crear" method="post">
+  @Html.AntiForgeryToken()
+  <div>
+    <label>UserID</label>
+    <input asp-for="UserID" />
+  </div>
+  <div>
+    <label>Total</label>
+    <input asp-for="Total" type="number" step="0.01" />
+  </div>
+  <div>
+    <label>Status</label>
+    <input asp-for="Status" />
+  </div>
+  <button type="submit">Guardar</button>
+</form>

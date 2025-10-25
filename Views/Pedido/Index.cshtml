@@ -1,0 +1,29 @@
+@model IEnumerable<Proyect_Snake_West.Models.Pedido>
+<h2>Pedidos</h2>
+
+<p><a asp-controller="Pedido" asp-action="Crear">Nuevo pedido</a></p>
+
+@if (!Model.Any())
+{
+  <p>No hay pedidos todavía.</p>
+}
+else
+{
+<table>
+  <thead>
+    <tr><th>ID</th><th>UserID</th><th>Total</th><th>Status</th><th></th></tr>
+  </thead>
+  <tbody>
+  @foreach (var p in Model)
+  {
+    <tr>
+      <td>@p.ID</td>
+      <td>@p.UserID</td>
+      <td>@p.Total</td>
+      <td>@p.Status</td>
+      <td><a asp-action="Detalle" asp-route-id="@p.ID">Ver</a></td>
+    </tr>
+  }
+  </tbody>
+</table>
+}

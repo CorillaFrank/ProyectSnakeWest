@@ -1,0 +1,31 @@
+@model Proyect_Snake_West.Models.Pedido
+<h2>Pedido @Model.ID</h2>
+
+<ul>
+  <li>UserID: @Model.UserID</li>
+  <li>Total: @Model.Total</li>
+  <li>Status: @Model.Status</li>
+</ul>
+
+<h3>Detalles</h3>
+@if (Model.Detalles == null || !Model.Detalles.Any())
+{
+  <p>Sin detalles.</p>
+}
+else
+{
+<table>
+  <thead><tr><th>ProductoId</th><th>Cantidad</th><th>Precio</th></tr></thead>
+  <tbody>
+  @foreach (var d in Model.Detalles)
+  {
+    <tr>
+      <td>@d.ProductoId</td>
+      <td>@d.Cantidad</td>
+      <td>@d.Precio</td>
+    </tr>
+  }
+  </tbody>
+</table>
+}
+<p><a asp-action="Index">Volver</a></p>

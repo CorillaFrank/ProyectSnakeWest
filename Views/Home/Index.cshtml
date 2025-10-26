@@ -1,133 +1,137 @@
 ﻿﻿@{
-    ViewData["Title"] = "Pagina";
+  ViewData["Title"] = "Pagina";
 }
-
+<!doctype html>
+<html lang="es">
 <head>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/home.css"  >
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-    <script   script src="/js/hello-anim.js"></script> <!-- Este será tu archivo con animaciones -->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" defer></script>
+  <script src="/js/hello-anim.js" defer></script>
+
+  <style>
+    /* Opcional: estilos tuyos */
+    .shipping-container{ position:relative; z-index:10 }
+
+    /* Wrapper que controla la HUELLAA del chat (no bloquea scroll) */
+    #fxo-wrapper{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      z-index: 2147483647;
+      overflow: hidden;
+      pointer-events: none; /* el wrapper no capta clics */
+      width: 320px;  /* será actualizado por JS también */
+      height: 520px; /* será actualizado por JS también */
+    }
+  </style>
 </head>
 
-
-<body>
-    <script defer src="https://app.embed.im/snow.js"></script>
-    
-    <div class="shipping-container">
-        <div class="shipping-message">
-            ¡ENVÍO GRATIS EN TODOS LOS PEDIDOS SUPERIORES A 300 SOLES! 🌻
-        </div>
-    </div>
-
-</body>
-
-
-<body>
-
-    <div class="slider-box">
-        <ul>
-            <li><img src="imagenes/slider-auto1.jpg" alt="Imagen 1"></li>
-            <li><img src="imagenes/slider-auto2.jpg" alt="Imagen 2"></li>
-            <li><img src="imagenes/slider-auto3.jpg" alt="Imagen 3"></li>
-            <li><img src="imagenes/slider-auto4.jpg" alt="Imagen 4"></li>
-        </ul>
-    </div>
-
-</body>
-
 <body class="slider-3d__body">
-    
-    <h1 class="slider-3d__title">OFERTAS </h1>
+  <script defer src="https://app.embed.im/snow.js"></script>
 
-    <div class="slider-3d__container">
-
-        <div class="slider-3d__main">
-            <input type="radio" name="slider-3d" id="item-1" checked class="slider-3d__input">
-            <input type="radio" name="slider-3d" id="item-2" class="slider-3d__input">
-            <input type="radio" name="slider-3d" id="item-3" class="slider-3d__input">
-
-            <div class="slider-3d__cards">
-                <label class="slider-3d__card" for="item-1" id="selector-1">
-                    <img src="imagenes/freepik__retouch__41972.jpeg" class="slider-3d__img">
-                </label>
-                <label class="slider-3d__card" for="item-2" id="selector-2">
-                    <img src="imagenes/freepik__retouch.jpeg" class="slider-3d__img">
-                </label>
-                <label class="slider-3d__card" for="item-3" id="selector-3">
-                    <img src="imagenes/Historia Instagram Oferta .jpg" class="slider-3d__img">
-                </label>
-            </div>
-            
-            
-        </div>
-        
+  <!-- HEADER / BARRA ENVÍO -->
+  <div class="shipping-container">
+    <div class="shipping-message">
+      ¡ENVÍO GRATIS EN TODOS LOS PEDIDOS SUPERIORES A 300 SOLES! 🌻
     </div>
-   
-</body> 
+  </div>
 
-<body>
-      
+  <!-- SLIDER 1 -->
+  <div class="slider-box">
+    <ul>
+      <li><img src="imagenes/slider-auto1.jpg" alt="Imagen 1"></li>
+      <li><img src="imagenes/slider-auto2.jpg" alt="Imagen 2"></li>
+      <li><img src="imagenes/slider-auto3.jpg" alt="Imagen 3"></li>
+      <li><img src="imagenes/slider-auto4.jpg" alt="Imagen 4"></li>
+    </ul>
+  </div>
 
-<section id="hero">
-   <h1>Bienvenidos a SNAKE WEST  <br>nos alegra que estes aquí</h1>
-   
-</section>  
-<header>
-    
+  <!-- SLIDER 3D -->
+  <h1 class="slider-3d__title">OFERTAS</h1>
+  <div class="slider-3d__container">
+    <div class="slider-3d__main">
+      <input type="radio" name="slider-3d" id="item-1" checked class="slider-3d__input">
+      <input type="radio" name="slider-3d" id="item-2" class="slider-3d__input">
+      <input type="radio" name="slider-3d" id="item-3" class="slider-3d__input">
+      <div class="slider-3d__cards">
+        <label class="slider-3d__card" for="item-1" id="selector-1">
+          <img src="imagenes/freepik__retouch__41972.jpeg" class="slider-3d__img">
+        </label>
+        <label class="slider-3d__card" for="item-2" id="selector-2">
+          <img src="imagenes/freepik__retouch.jpeg" class="slider-3d__img">
+        </label>
+        <label class="slider-3d__card" for="item-3" id="selector-3">
+          <img src="imagenes/Historia Instagram Oferta .jpg" class="slider-3d__img">
+        </label>
+      </div>
+    </div>
+  </div>
 
+  <!-- HERO -->
+  <section id="hero"><h1>Bienvenidos a SNAKE WEST<br>nos alegra que estés aquí</h1></section>
 
- 
-</header>
-
-<section id="somos">
+  <!-- SOMOS -->
+  <section id="somos">
     <div class="container">
-       <div class="img-container"></div>
-       <div class="texto">
-          <h2>Somos <span
-          class="color-acento">SNAKE WEST</span></h2>
-          <p>
+      <div class="img-container"></div>
+      <div class="texto">
+        <h2>Somos <span class="color-acento">SNAKE WEST</span></h2>
+ <p>
           "Somos una empresa dedicada a la comercialización de zapatillas de alta calidad y diseño innovador, satisfaciendo las necesidades y expectativas de nuest ros clientes. Nos enfocamos en ofrecer productos que combinan estilo, comodidad y durabilidad, mientras mantenemos un compromiso con la sostenibilidad en todas nuestras operaciones. Buscamos consolidarnos como líderes en el sector del calzado, expandiendo nuestra presencia en nuevos mercados y fortaleciendo nuestras relaciones con clientes y socios comerciales para lograr un crecimiento rentable y sostenible a largo plazo."</p>
-        </div>
+                </div>
     </div>
+  </section>
 
-</section>
-
- <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
-</script>  
-<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-  <script src="~/js/hello-anim.js"></script>
-
-
-<script src="~/js/chatbot.js"></script>  
-  
-
-<script>
-    let current = 1;
-    const total = 3;
-
+  <!-- Scripts propios -->
+  <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    let current = 1; const total = 3;
     setInterval(() => {
-        document.getElementById(`item-${current}`).checked = false;
-        current = current % total + 1;
-        document.getElementById(`item-${current}`).checked = true;
+      document.getElementById(`item-${current}`).checked = false;
+      current = current % total + 1;
+      document.getElementById(`item-${current}`).checked = true;
     }, 1500);
-</script>
+  </script>
 
-  
-<script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '68437b0421aa636e451623dc' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production',
-          voice: {
-            url: "https://runtime-api.voiceflow.com"
-          }
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
+  <!-- FlowXO widget -->
+ <script src="https://widget.flowxo.com/embed.js"
+  data-fxo-widget="eyJ0aGVtZSI6IiM2N2MxOGUiLCJ3ZWIiOnsiYm90SWQiOiI2OGZlN2U1ZjcyZmI0NzAwNGI0N2YyOTkiLCJ0aGVtZSI6IiM2N2MxOGUiLCJsYWJlbCI6IkJvdCBTbmFrZXIgV2VzdCJ9LCJ3ZWxjb21lVGV4dCI6IsK/TmVjZXNpdGFzIEF5dWRhPyJ9" async defer></script>
+
+ <script>
+  /* Reaplica los estilos por si el script del widget los cambia después */
+  (function () {
+    function enforce() {
+      document.querySelectorAll('iframe.fxo-messenger-iframe, iframe[src*="widget.flowxo.com/messenger"]').forEach(function (ifr) {
+        ifr.style.position = 'fixed';
+        ifr.style.right = (window.innerWidth <= 480 ? '6px' : '10px');
+        ifr.style.bottom = (window.innerWidth <= 480 ? '6px' : '10px');
+        var w = (window.innerWidth <= 480 ? 300 : 360);
+        var h = (window.innerWidth <= 480 ? 500 : 560);
+        ifr.style.width = w + 'px';
+        ifr.style.height = h + 'px';
+        ifr.style.maxWidth = w + 'px';
+        ifr.style.maxHeight = h + 'px';
+        ifr.style.minWidth = w + 'px';
+        ifr.style.minHeight = h + 'px';
+        ifr.style.left = 'auto';
+        ifr.style.top = 'auto';
+        ifr.style.zIndex = '2147483647';
+        ifr.style.border = 'none';
+        ifr.style.pointerEvents = 'auto';
+      });
+    }
+    enforce();
+    var t = setInterval(enforce, 500);      // por si FlowXO reescribe
+    setTimeout(function(){ clearInterval(t); }, 15000);
+    new MutationObserver(enforce).observe(document.body, { childList: true, subtree: true });
+    window.addEventListener('resize', enforce);
+  })();
 </script>
 </body>
+</html>

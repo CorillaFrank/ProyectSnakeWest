@@ -62,4 +62,23 @@ public class PedidoController : Controller
         _db.SaveChanges();
         return Created($"/Pedido/{pedido.ID}", pedido);
     }
+[HttpGet("api/pedidos/status")]
+[AllowAnonymous] // opcional, si Flowxo no envía token de autenticación
+public IActionResult GetStatus([FromQuery] int orderId)
+{
+    var pedido = _db.Pedidos.FirstOrDefault(p => p.ID == orderId);
+
+    if (pedido == null)
+        return NotFound(new { message = "El pedido no se encuentra registrado, vuelva intentar" });
+
+    // Asegúrate de devolver las propiedades en el mismo formato que espera Flowxo
+    return Ok(new
+    {
+        orderId = pedido.ID,      // con 'I' mayúscula
+        user = pedido.UserID,
+        total = pedido.Total,
+        status = pedido.Status
+    });
+}
+
 }

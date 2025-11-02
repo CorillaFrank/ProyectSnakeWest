@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Proyect_Snake_West.Data;
 using Proyect_Snake_West.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Text;
 
 
 namespace Proyect_Snake_West.Controllers;
@@ -62,23 +63,49 @@ public class PedidoController : Controller
         _db.SaveChanges();
         return Created($"/Pedido/{pedido.ID}", pedido);
     }
-[HttpGet("api/pedidos/status")]
-[AllowAnonymous] // opcional, si Flowxo no envía token de autenticación
-public IActionResult GetStatus([FromQuery] int orderId)
+    [HttpGet("api/pedidos/status")]
+    [AllowAnonymous] // opcional, si Flowxo no envía token de autenticación
+    public IActionResult GetStatus([FromQuery] int orderId)
+    {
+        var pedido = _db.Pedidos.FirstOrDefault(p => p.ID == orderId);
+
+        if (pedido == null)
+            return NotFound(new { message = "El pedido no se encuentra registrado, vuelva intentar" });
+
+        // Asegúrate de devolver las propiedades en el mismo formato que espera Flowxo
+        return Ok(new
+        {
+            orderId = pedido.ID,      // con 'I' mayúscula
+            user = pedido.UserID,
+            total = pedido.Total,
+            status = pedido.Status
+        });
+    }
+[HttpGet("api/pedidos/detalleTexto")]
+[AllowAnonymous] // Si no se requiere autenticación
+public IActionResult GetDetalleTexto([FromQuery] int orderId)
 {
-    var pedido = _db.Pedidos.FirstOrDefault(p => p.ID == orderId);
+    var pedido = _db.Pedidos
+                    .Include(p => p.Detalles)
+                    .ThenInclude(d => d.Producto)
+                    .AsNoTracking()
+                    .FirstOrDefault(p => p.ID == orderId);
 
     if (pedido == null)
-        return NotFound(new { message = "El pedido no se encuentra registrado, vuelva intentar" });
+        return NotFound("Pedido no encontrado. Por favor verifica el ID.");
 
-    // Asegúrate de devolver las propiedades en el mismo formato que espera Flowxo
-    return Ok(new
+    // Construir mensaje formateado
+    var mensaje = new StringBuilder();
+    mensaje.AppendLine($"Tu pedido #{pedido.ID} está en estado: {pedido.Status}");
+    mensaje.AppendLine($"Total: S/. {pedido.Total}");
+    mensaje.AppendLine("Productos:");
+
+    foreach (var item in pedido.Detalles)
     {
-        orderId = pedido.ID,      // con 'I' mayúscula
-        user = pedido.UserID,
-        total = pedido.Total,
-        status = pedido.Status
-    });
+        mensaje.AppendLine($"- {item.Producto.Name} (Cantidad: {item.Cantidad}) - S/. {item.Precio}");
+    }
+
+        return Content(mensaje.ToString(), "text/plain");
 }
 
 }

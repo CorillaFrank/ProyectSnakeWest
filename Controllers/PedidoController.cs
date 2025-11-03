@@ -107,5 +107,20 @@ public IActionResult GetDetalleTexto([FromQuery] int orderId)
 
         return Content(mensaje.ToString(), "text/plain");
 }
+[HttpGet("api/productos/lista")]
+public IActionResult GetListaProductos()
+{
+    var productos = _db.Productos
+                       .Select(p => new { p.Id, p.Name, p.Price, p.ImageURL })
+                       .ToList();
 
+    var mensaje = new StringBuilder();
+    mensaje.AppendLine("Productos disponibles:");
+    foreach (var p in productos)
+    {
+        mensaje.AppendLine($"ID: {p.Id}\nNombre: {p.Name}\nPrecio: S/. {p.Price}\nImagen: {p.ImageURL}\n");
+    }
+
+    return Content(mensaje.ToString(), "text/plain");
+}
 }

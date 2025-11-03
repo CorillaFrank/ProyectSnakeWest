@@ -2,20 +2,17 @@ let imagenes = [
   {
     url: "img/img1.webp",
     nombre: "Proyecto 01",
-    descripcion:
-      "Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete",
+    descripcion: "E",
   },
   {
     url: "img/img2.webp",
     nombre: "Proyecto 02",
-    descripcion:
-      "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete",
+    descripcion: "",
   },
   {
     url: "img/img3.webp",
     nombre: "Proyecto 03",
-    descripcion:
-      "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete",
+    descripcion: "E",
   },
 ];
 

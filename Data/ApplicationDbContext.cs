@@ -14,7 +14,7 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Pago> Pagos { get; set; }
     public DbSet<Pedido> Pedidos { get; set; }
     public DbSet<DetallePedido> DetallePedidos { get; set; }
-
+    public DbSet<Devolucion> Devoluciones { get; set; }  // Asegúrate de agregar esto
     protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
     base.OnModelCreating(modelBuilder);
@@ -32,22 +32,24 @@ public class ApplicationDbContext : IdentityDbContext
         // b.Property(x => x.PagoId).HasColumnName("pagoId"); // si existe en tu modelo
     });
 
-    // --- DetallePedido -> public.t_order_detail ---
-    modelBuilder.Entity<DetallePedido>(b =>
-    {
-        b.ToTable("t_order_detail", "public");
-        b.HasKey(x => x.ID);
+        // --- DetallePedido -> public.t_order_detail ---
+        modelBuilder.Entity<DetallePedido>(b =>
+        {
+            b.ToTable("t_order_detail", "public");
+            b.HasKey(x => x.ID);
 
-        b.Property(x => x.ID).HasColumnName("id");
-        b.Property(x => x.ProductoId).HasColumnName("ProductoId"); // exacto
-        b.Property(x => x.Cantidad).HasColumnName("Cantidad");
-        b.Property(x => x.Precio).HasColumnName("Precio");
-        b.Property(x => x.PedidoID).HasColumnName("pedidoID");     // exacto
+            b.Property(x => x.ID).HasColumnName("id");
+            b.Property(x => x.ProductoId).HasColumnName("ProductoId"); // exacto
+            b.Property(x => x.Cantidad).HasColumnName("Cantidad");
+            b.Property(x => x.Precio).HasColumnName("Precio");
+            b.Property(x => x.PedidoID).HasColumnName("pedidoID");     // exacto
 
-        b.HasOne(x => x.Pedido)
-         .WithMany(p => p.Detalles)
-         .HasForeignKey(x => x.PedidoID);
-    });
+            b.HasOne(x => x.Pedido)
+             .WithMany(p => p.Detalles)
+             .HasForeignKey(x => x.PedidoID);
+        });
+    
+
 }
 
 }
